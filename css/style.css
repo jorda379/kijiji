@@ -1,0 +1,51 @@
+/*This is a remake of this (https://www.kijiji.ca/v-apartments-condos/city-of-toronto/88-bloor-street-2-bedroom-2-bath-heart-of-downtown/1464756250  )page from Kijij*/
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased; /* hur fungerar detta?*/
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #373373;
+    /*position: relative;*/
+    width: 100%;
+    z-index: 1021; /* hur fungerar detta?*/
+}
+
+nav ul {
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+}
+
+.topnav {
+        align-items: center;
+        flex-direction: row;
+        flex-direction: wrap;
+        font-size: 14px;
+        justify-content: space-between;
+        line-height: 1;
+        padding: 15px;
+}
+
+
+
+
+
+.logo {
+    width: 5%;
+}
+
+.rent {
+    width: 30%;
+}
+
+.image {
+    width: 50%;
+}
